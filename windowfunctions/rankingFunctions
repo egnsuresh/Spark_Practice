@@ -1,35 +1,21 @@
 DataSet:
-
 name,marks
-
 a,100
-
 b,99
-
 c,100
-
 d,30
-
 e,90
-
 f,95
 
 after applying rank
 
 name,marks,rank
-
 a,100,1
-
 c,100,1
-
 b,99,3
-
 f,95,4
-
 e,90,5
-
 d,30,6
-
 
 Explanation:
 
@@ -40,11 +26,8 @@ but for next lower or higher row value will get the rank as total number of rank
 example: here (a,100),(b,99),(c,100)
 
 here a and c got same value and highest values.
-
 a will get rank 1
-
 c will get rank 2
-
 b will get the rank as (total number given ranks till now =2)+1= 3
 
 after applying rank, dense_rank
